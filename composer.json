@@ -1,0 +1,18 @@
+{
+    "name": "barrey-m2/unit_test",
+    "authors": [
+        {
+            "name": "Barrey",
+            "email": "ajibari@live.com"
+        }
+    ],
+    "require": {}, 
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\":"tests/"
+        }
+    }
+}
